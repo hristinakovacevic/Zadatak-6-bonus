@@ -493,21 +493,82 @@
   
   
   
-  /* --------------- MEDIA QUERY WIDTH >= 650 && HEIGHT <= 725 --------------- */
-  @media screen and (min-width: 650px) and (max-height: 725px) {
+  /* --------------- MEDIA  --------------- */
+   @media  (max-width: 460px)  {
     #ipc-outer-bg-container {
       background-position: left -49px;
     }
-  
-    #ipc-inner-container {
-      top: 50px;
+    #cta-list-container{
+      top:72px;
     }
+  #cta-link{
+    
+    top: 87px;
   }
+    #ipc-cta-container {
+      display: flex;
+      flex-direction: column;
+      bottom: 123px;
+    }
+    #price{
+      margin-top: 87px;
+
+    }
+
+    #main{
+      width:94%;
+      height: 80vh;
+    }
+    h3{
+      font-size: 19px;
+    }
+    h4{
+      font-size: 12px;
+    }
+    #pageviews-for-price{
+      display: flex;
+    flex-direction: column;
+    }
+    #monthly-billing{
+      left: 8px;
+    }
+    #yearly-billing{
+      right: 92px;
+    }
+    .switch{
+      left: -34px;
+    }
+    #discount-container{
+      right: 23px;
+      width: 51px;
+    }
+    #yearly-discount-lg {
+      display: none;
+    }
+    #yearly-discount-sm {
+      display: block;
+  
+      font-family: "Manrope", sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      color: hsl(15, 100%, 70%);
+    }
+    #price-slider{
+      top: -30px;
+    }
+    #billing-interval-container{
+      bottom: -25px;
+    }
+    
+    #slider{
+      height: 228px;
+    }
+    
+  }
+   
   
   
-  
-  /* ------------------------ MEDIA QUERY WIDTH <= 649 ------------------------ */
-  @media screen and (max-width: 649px) {
+  /* @media (max-width: 500px)  {
     #ipc-outer-bg-container {
       background-position: left -49px;
     }
@@ -650,4 +711,4 @@
       top: 11px;
       left: 0;
     }
-  }
+  } */
